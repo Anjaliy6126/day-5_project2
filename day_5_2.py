@@ -92,7 +92,7 @@ h1{
 # ----------------------------
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("binary_image_classifier.keras")
+    return tf.keras.models.load_model("binary_image_classifier (1).keras")
 
 model = load_model()
 
